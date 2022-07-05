@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-export default function MidLevelChallenge() {
+export default function App() {
   const [balance, setBalance] = useState(0);
   const [users, setUsers] = useState([
     {
